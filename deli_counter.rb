@@ -6,7 +6,7 @@ def line(line)
   if line == [] 
     puts "The line is currently empty."
   else 
-  
+  line_number(line)
     
 end
 end 
