@@ -16,4 +16,5 @@ def line_number(line)
   line.each do |name|
   newLine <<  "#{count}. #{name}" 
   end 
+  puts newLine
 end 
