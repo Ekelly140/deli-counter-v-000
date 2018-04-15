@@ -33,5 +33,6 @@ def now_serving(line)
     while 0 < line.length
     puts "Now serving #{line[0]}"
     line.shift
+  end
   end 
 end 
