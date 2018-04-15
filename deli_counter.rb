@@ -2,6 +2,8 @@
 katz_deli = []
 
 def line(line)
-  if kat
+  if line == [] 
+    puts "The line is currently empty."
+  end 
   
 end 
