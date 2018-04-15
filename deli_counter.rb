@@ -21,6 +21,7 @@ def line_number(line)
 end 
 
 def take_a_number(line, name)
-    puts"Welcome, #{name}. You are number #{line.length + 1} in line."
     line << name
+    puts"Welcome, #{name}. You are number #{line.length} in line."
+    
 end 
