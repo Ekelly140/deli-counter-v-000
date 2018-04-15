@@ -7,8 +7,7 @@ def line(line)
     puts "The line is currently empty."
   else 
   line_number(line)
-    
-end
+  end
 end 
 
 def line_number(line)
