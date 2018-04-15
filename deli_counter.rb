@@ -19,3 +19,7 @@ def line_number(line)
   end 
   puts newLine
 end 
+
+def take_a_number(line, name)
+  puts"#{name} #{line.lenght + 1}"
+end 
