@@ -32,7 +32,7 @@ def now_serving(line)
     puts "There is nobody waiting to be served!"
   elsif 
     puts "Currently serving #{line[0]}."
+    rline.shift
      binding.pry
-    line.shift
     end 
 end 
