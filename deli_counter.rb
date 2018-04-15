@@ -33,6 +33,5 @@ def now_serving(line)
   elsif 
         puts "Currently serving #{line[0]}."
     line.shift
-  
-  end 
+    end 
 end 
