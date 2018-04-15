@@ -32,7 +32,7 @@ def now_serving(line)
   elsif 
     while 0 < line.length
     puts "Currently serving #{line[0]}."
-    line.shift
+    line.unshift
   end
   end 
 end 
