@@ -12,9 +12,9 @@ end
 
 def line_number(line)
   count =1
-  newLine = "The line is currently: "
+  newLine = "The line is currently:"
   line.each do |name|
-  newLine <<  "#{count}. #{name} " 
+  newLine <<  " #{count}. #{name}" 
   count += 1
   end 
   puts newLine
